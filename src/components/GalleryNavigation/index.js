@@ -3,7 +3,7 @@ import './GalleryNavigation.css';
 
 function GalleryNavigation(props) {
     let {galleries} = props
-    console.log(galleries)
+    // console.log(galleries)
     let galleriesArr = []
 
     for (let i = 0; i < galleries.length; i++) {
